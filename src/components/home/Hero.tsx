@@ -17,7 +17,7 @@ export const Hero = () => (
         developer
       </h1>
       <p className="text-white opacity-50 mb-5 text-2xl mt-2 font-medium">
-        Building websites that have goals
+        Building web apps that have goals
       </p>
       <div className="flex items-center -mx-2 flex-wrap wrap">
         <Button className="m-2" size="lg">
