@@ -35,7 +35,7 @@ export const WorkCard: FC<Props> = ({
       <h3 style={{ color }} className="text-2xl md:text-6xl font-bold">
         {name}
       </h3>
-      <p className="mt-1 md:mt-2 mb-2 md:mb-5 text-sm md:text-xl max-w-[570px] lg:w-[570px]">
+      <p className="mt-1 md:mt-2 mb-2 md:mb-5 text-sm md:text-xl  lg:w-[570px]">
         {description}
       </p>
       <p className="mb-5 opacity-50 flex text-xs md:text-base">

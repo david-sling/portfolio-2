@@ -14,7 +14,7 @@ export const Work = () => (
     <div className="mt-10 space-y-10 md:space-y-20">
       <WorkCard
         name="domainmarkia"
-        description="A domain marketplace and trademark filing in one"
+        description="A domain marketplace and trademark filing in one. The domain search results are fetched serverside. The blogs are fetched from Notion during build time. The legal pages are rendered directly from md files using contentlayer. The cart resides on a global context and updates realtime with user interactions."
         stack={["Next JS", "Notion API", "contentlayer", "TypeScript"]}
         color="#7C57E3"
         projectLink="https://domainmarkia.com"
