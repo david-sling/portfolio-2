@@ -1,4 +1,4 @@
-import { Logo } from "@/asstes/icons/Logo";
+import { Logo } from "@/assets/icons/Logo";
 import { Section } from "./Section";
 
 export const Header = () => (
