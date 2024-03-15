@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export const Hero = () => (
   <Section>
-    <div className="mt-20">
+    <div className="my-20">
       <h1 className="text-7xl font-bold leading-[130%]">
         Meet your{" "}
         <span className="text-primary">
@@ -33,7 +33,7 @@ export const Hero = () => (
         </div>
       </div>
     </div>
-    <div className="flex justify-end items-center h-0 mt-40">
+    <div className="justify-end items-center h-0 mt-20 hidden md:flex">
       <div className="w-0 ml-[100px]">
         <LogoRipple />
       </div>

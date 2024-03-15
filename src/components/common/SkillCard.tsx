@@ -9,7 +9,7 @@ interface Props {
 }
 
 export const SkillCard: FC<Props> = ({ label, icon, skills, className }) => (
-  <div className={cn("flex-1 bg-dark p-5 rounded-xl", className)}>
+  <div className={cn("flex-1 min-w-[300px] bg-dark p-5 rounded-xl", className)}>
     <div className="flex items-center justify-between">
       <h3 className="text-3xl font-bold text-primary">{label}</h3>
       {icon}

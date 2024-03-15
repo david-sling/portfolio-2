@@ -9,7 +9,7 @@ export const Skills = () => (
     <h2 className="text-3xl font-bold">
       <span className="text-primary">this.</span>skills
     </h2>
-    <div className="flex -mx-5">
+    <div className="flex -mx-5 overflow-x-auto">
       <SkillCard
         label="Frontend"
         icon={<JSXIcon />}
