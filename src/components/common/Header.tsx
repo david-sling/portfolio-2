@@ -2,8 +2,8 @@ import { Logo } from "@/assets/icons/Logo";
 import { Section } from "./Section";
 
 export const Header = () => (
-  <Section className="bg-dark-800 py-5 sticky top-0 z-10">
-    <div className="flex items-center">
+  <Section className="bg-dark-800 py-2 md:py-5 sticky top-0 z-10">
+    <div className="flex items-center justify-center md:justify-start">
       <div className="bg-primary-100 h-11 w-11 flex items-center justify-center rounded-full">
         <Logo className="fill-primary h-5 w-5 translate-x-1" />
       </div>

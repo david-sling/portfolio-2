@@ -17,8 +17,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={cn("bg-dark text-white", systemUi.className)}>
+    <html className="scroll-smooth" lang="en">
+      <body
+        className={cn(
+          "bg-dark text-white w-full overflow-x-hidden",
+          systemUi.className
+        )}
+      >
         <Header />
         {children}
       </body>

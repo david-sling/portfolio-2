@@ -7,11 +7,11 @@ import { FlameBondIllustration } from "@/assets/illustrations/flamebond/FlameBon
 import { CryptoSenderIllustration } from "@/assets/illustrations/cryptosender/CryptoSenderIllustration";
 
 export const Work = () => (
-  <Section className="py-32">
-    <h2 className="text-3xl font-bold">
+  <Section id="work" className="py-10 md:py-32">
+    <h2 className="text-base md:text-3xl font-bold">
       <span className="text-primary">this.</span>work
     </h2>
-    <div className="mt-10 space-y-20">
+    <div className="mt-10 space-y-10 md:space-y-20">
       <WorkCard
         name="domainmarkia"
         description="A domain marketplace and trademark filing in one"

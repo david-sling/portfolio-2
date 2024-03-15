@@ -5,8 +5,8 @@ import { GearIcon } from "@/assets/icons/GearIcon";
 import { PaintRollerIcon } from "@/assets/icons/PaintRollerIcon";
 
 export const Skills = () => (
-  <Section className="bg-dark-800 py-32">
-    <h2 className="text-3xl font-bold">
+  <Section className="bg-dark-800 py-10 md:py-32">
+    <h2 className="text-base md:text-3xl font-bold">
       <span className="text-primary">this.</span>skills
     </h2>
     <div className="flex -mx-5 overflow-x-auto">

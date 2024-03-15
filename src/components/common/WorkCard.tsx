@@ -32,20 +32,22 @@ export const WorkCard: FC<Props> = ({
       {illustration}
     </div>
     <div className="m-5 flex flex-col">
-      <h3 style={{ color }} className="text-6xl font-bold">
+      <h3 style={{ color }} className="text-2xl md:text-6xl font-bold">
         {name}
       </h3>
-      <p className="mt-2 mb-5 text-xl max-w-[570px] md:w-[570px]">
+      <p className="mt-1 md:mt-2 mb-2 md:mb-5 text-sm md:text-xl max-w-[570px] lg:w-[570px]">
         {description}
       </p>
-      <p className="mb-5 opacity-50 flex">{stack.join(" + ")}</p>
+      <p className="mb-5 opacity-50 flex text-xs md:text-base">
+        {stack.join(" + ")}
+      </p>
       <Link target="_blank" className="mt-auto self-start" href={projectLink}>
         <button
           style={{ backgroundColor: `${color}10`, color }}
-          className="flex items-center space-x-2 px-4 py-2 text-lg font-bold rounded-lg"
+          className="flex items-center space-x-3 px-4 py-2 text-sm md:text-lg font-bold rounded-lg"
         >
-          <LinkIcon fill={color} />
-          View Site
+          <LinkIcon fill={color} className="h-5 w-5 md:h-7 md:w-7" />
+          <p>View Site</p>
         </button>
       </Link>
     </div>
