@@ -23,7 +23,7 @@ export const Skills = () => (
         ]}
       />
       <SkillCard
-        label="Bckend"
+        label="Backend"
         icon={<GearIcon />}
         className="flex-1 m-5"
         skills={[
