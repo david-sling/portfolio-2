@@ -1,10 +1,13 @@
-export const FlameBondLogo = () => (
+import { SVGProps } from "react";
+
+export const FlameBondLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width="125"
     height="126"
     viewBox="0 0 125 126"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    {...props}
   >
     <path d="M125 0.5H0V125.5L125 0.5Z" fill="#F4C240" />
     <path

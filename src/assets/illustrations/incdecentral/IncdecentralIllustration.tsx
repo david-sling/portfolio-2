@@ -5,7 +5,7 @@ export const IncdecentralIllustration = () => (
     <div className="flex flex-1 bg-[#F46598] mr-28 rounded-r-3xl">
       <div className="flex flex-1 bg-[#FBBDD3] mr-28 rounded-r-3xl">
         <div className="flex flex-1 bg-[#FFEBF2] mr-28 rounded-r-3xl items-center justify-center">
-          <IncDLogo />
+          <IncDLogo className="w-[75px] h-[75px] md:w-[150px] md:h-[150px]" />
         </div>
       </div>
     </div>

@@ -7,7 +7,7 @@ export const FlameBondIllustration = () => (
       <div className="bg-[#F4C240] flex-1 scale-[300%] -translate-x-[100px] rotate-45" />
     </div>
     <div className="flex-[2] flex items-center justify-center">
-      <FlameBondLogo />
+      <FlameBondLogo className="w-[75px] h-[75px] md:w-[150px] md:h-[150px]" />
     </div>
   </div>
 );

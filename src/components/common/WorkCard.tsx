@@ -24,11 +24,11 @@ export const WorkCard: FC<Props> = ({
 }) => (
   <div
     className={cn(
-      "flex -m-5 flex-col md:odd:flex-row md:even:flex-row-reverse",
+      "flex -m-5 flex-col lg:odd:flex-row lg:even:flex-row-reverse",
       className
     )}
   >
-    <div className="bg-dark-800 min-h-[257px] max-w-[800px] overflow-hidden flex-1 rounded-3xl m-5 flex">
+    <div className="bg-dark-800 min-h-[118px] md:min-h-[257px] max-w-[800px] overflow-hidden flex-1 rounded-3xl m-5 flex">
       {illustration}
     </div>
     <div className="m-5 flex flex-col">
