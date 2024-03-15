@@ -9,7 +9,7 @@ import { StickyNav } from "@/components/common/StickyNav";
 export const metadata = formatMetadata({
   title: "David Sling | Web Developer & Designer",
   description: "The practical developer",
-  image: "/cover.png",
+  image: "https://davidsling.in/cover.png",
 });
 
 export default function RootLayout({
