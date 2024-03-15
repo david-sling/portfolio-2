@@ -1,10 +1,9 @@
 import { Header } from "@/components/common/Header";
+import { StickyNav } from "@/components/common/StickyNav";
 import { systemUi } from "@/fonts/config";
 import { cn } from "@/utils/cn";
-import type { Metadata } from "next";
-import "./globals.css";
 import { formatMetadata } from "@/utils/metadata";
-import { StickyNav } from "@/components/common/StickyNav";
+import "./globals.css";
 
 export const metadata = formatMetadata({
   title: "David Sling | Web Developer & Designer",

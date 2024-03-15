@@ -8,6 +8,7 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/assets/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/mdx-components.tsx",
   ],
   theme: {
     extend: {
@@ -30,6 +31,7 @@ const config: Config = {
           900: `${primary}90`,
         },
         dark: {
+          500: "#333",
           DEFAULT: "#212121",
           800: "#1a1a1a",
           900: "#1E1E1E",
