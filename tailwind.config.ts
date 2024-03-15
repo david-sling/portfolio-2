@@ -1,5 +1,7 @@
 import type { Config } from "tailwindcss";
 
+const primary = "#67D0E8";
+
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -16,10 +18,16 @@ const config: Config = {
       },
       colors: {
         primary: {
-          DEFAULT: "#67D0E8",
-          100: "#67D1E810",
-          200: "#67D1E820",
-          500: "#67D1E850",
+          DEFAULT: primary,
+          100: `${primary}10`,
+          200: `${primary}20`,
+          300: `${primary}30`,
+          400: `${primary}40`,
+          500: `${primary}50`,
+          600: `${primary}60`,
+          700: `${primary}70`,
+          800: `${primary}80`,
+          900: `${primary}90`,
         },
         dark: {
           DEFAULT: "#212121",

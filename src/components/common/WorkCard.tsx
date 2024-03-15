@@ -24,7 +24,7 @@ export const WorkCard: FC<Props> = ({
 }) => (
   <div
     className={cn(
-      "flex -m-5 flex-col md:odd-flex-row md:even:flex-row-reverse",
+      "flex -m-5 flex-col md:odd:flex-row md:even:flex-row-reverse",
       className
     )}
   >
