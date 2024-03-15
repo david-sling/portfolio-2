@@ -1,10 +1,13 @@
-export const CryptoSenderLogo = () => (
+import { SVGProps } from "react";
+
+export const CryptoSenderLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width="162"
     height="111"
     viewBox="0 0 162 111"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    {...props}
   >
     <path
       fillRule="evenodd"
