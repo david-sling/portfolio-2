@@ -6,8 +6,8 @@ import { LogoRipple } from "../common/LogoRipple";
 import Link from "next/link";
 
 export const Hero = () => (
-  <Section id="hero" className="min-h-[calc(100vh-100px)] md:min-h-[unset]">
-    <div className="my-10 md:my-20">
+  <Section id="hero" className="min-h-[calc(100vh-130px)] md:min-h-[unset]">
+    <div className="my-5 md:my-32">
       <h1 className="text-3xl text-center md:text-start md:text-7xl font-bold leading-[130%]">
         Meet your{" "}
         <span className="text-primary text-7xl">

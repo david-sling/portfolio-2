@@ -32,6 +32,7 @@ const config: Config = {
         dark: {
           DEFAULT: "#212121",
           800: "#1a1a1a",
+          900: "#1E1E1E",
         },
       },
     },
