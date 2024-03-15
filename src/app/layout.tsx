@@ -4,6 +4,7 @@ import { cn } from "@/utils/cn";
 import type { Metadata } from "next";
 import "./globals.css";
 import { formatMetadata } from "@/utils/metadata";
+import { StickyNav } from "@/components/common/StickyNav";
 
 export const metadata = formatMetadata({
   title: "David Sling | Web Developer & Designer",
@@ -26,6 +27,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <StickyNav />
       </body>
     </html>
   );

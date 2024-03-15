@@ -15,7 +15,7 @@ export const LogoRipple = () => (
         height: sizes.ripple1,
         minWidth: sizes.ripple1,
       }}
-      className="flex items-center rounded-full justify-center bg-primary-100"
+      className="flex items-center rounded-full justify-center bg-primary-100 animate-pulse"
     >
       <div
         style={{
@@ -29,7 +29,7 @@ export const LogoRipple = () => (
             height: sizes.ripple2,
             minWidth: sizes.ripple2,
           }}
-          className="flex items-center rounded-full justify-center bg-primary-200"
+          className="flex items-center rounded-full justify-center bg-primary-100"
         >
           <div
             style={{

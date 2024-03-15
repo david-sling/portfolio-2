@@ -28,7 +28,7 @@ export const WorkCard: FC<Props> = ({
       className
     )}
   >
-    <div className="bg-dark-800 min-h-[118px] md:min-h-[257px] max-w-[800px] overflow-hidden flex-1 rounded-3xl m-5 flex">
+    <div className="bg-dark-800 relative z-0 min-h-[118px] md:min-h-[257px] max-w-[800px] overflow-hidden flex-1 rounded-3xl m-5 flex">
       {illustration}
     </div>
     <div className="m-5 flex flex-col">
