@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { formatMetadata } from "@/utils/metadata";
 import { StickyNav } from "@/components/common/StickyNav";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata = formatMetadata({
   title: "David Sling | Web Developer & Designer",
@@ -29,6 +30,7 @@ export default function RootLayout({
         {children}
         <StickyNav />
       </body>
+      <Analytics />
     </html>
   );
 }
