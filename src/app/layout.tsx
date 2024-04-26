@@ -29,9 +29,9 @@ export default function RootLayout({
         <Header />
         {children}
         <StickyNav />
+        <Analytics />
+        <SpeedInsights />
       </body>
-      <Analytics />
-      <SpeedInsights />
     </html>
   );
 }
