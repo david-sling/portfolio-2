@@ -24,11 +24,11 @@ export const WorkCard: FC<Props> = ({
 }) => (
   <div
     className={cn(
-      "flex lg:-m-5 lg:even:ml-0 lg:odd:mr-0 xl:!m-0 flex-col lg:odd:flex-row lg:even:flex-row-reverse lg:items-start lg:-mx-[100px] group",
+      "flex -m-5 lg:even:ml-0 lg:odd:mr-0 xl:!m-0 flex-col lg:odd:flex-row lg:even:flex-row-reverse lg:items-start lg:-mx-[100px] group",
       className
     )}
   >
-    <div className="bg-dark-800 relative z-0 min-h-[118px] md:min-h-[257px] max-w-[800px] overflow-hidden flex-1 rounded-3xl m-5 flex group-odd:lg:rounded-l-none group-even:lg:rounded-r-none xl:!rounded-3xl">
+    <div className="bg-dark-800 relative z-0 min-h-[118px] md:min-h-[257px] lg:max-w-[800px] overflow-hidden flex-1 rounded-3xl m-5 flex group-odd:lg:rounded-l-none group-even:lg:rounded-r-none xl:!rounded-3xl">
       {illustration}
     </div>
     <div className="m-5 flex flex-col">
