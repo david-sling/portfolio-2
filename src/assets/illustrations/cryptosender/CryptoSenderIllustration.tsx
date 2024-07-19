@@ -2,7 +2,7 @@ import { CryptoSenderLogo } from "@/assets/icons/CryptoSenderLogo";
 
 export const CryptoSenderIllustration = () => (
   <div className="flex flex-1 bg-white">
-    <div className="flex-[2] flex items-center justify-center">
+    <div className="flex-[2] group-hover:flex-[12] transition-all duration-1000 flex items-center justify-center">
       <CryptoSenderLogo className="w-[75px] h-[75px] md:w-[150px] md:h-[150px]" />
     </div>
     <div className="flex-[1] flex flex-col">
