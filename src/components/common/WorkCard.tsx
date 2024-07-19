@@ -24,18 +24,18 @@ export const WorkCard: FC<Props> = ({
 }) => (
   <div
     className={cn(
-      "flex -m-5 flex-col lg:odd:flex-row lg:even:flex-row-reverse lg:items-start",
+      "flex lg:-m-5 lg:even:ml-0 lg:odd:mr-0 xl:!m-0 flex-col lg:odd:flex-row lg:even:flex-row-reverse lg:items-start lg:-mx-[100px] group",
       className
     )}
   >
-    <div className="bg-dark-800 relative z-0 min-h-[118px] md:min-h-[257px] max-w-[800px] overflow-hidden flex-1 rounded-3xl m-5 flex">
+    <div className="bg-dark-800 relative z-0 min-h-[118px] md:min-h-[257px] max-w-[800px] overflow-hidden flex-1 rounded-3xl m-5 flex group-odd:lg:rounded-l-none group-even:lg:rounded-r-none xl:!rounded-3xl">
       {illustration}
     </div>
     <div className="m-5 flex flex-col">
       <h3 style={{ color }} className="text-2xl md:text-6xl font-bold">
         {name}
       </h3>
-      <p className="mt-1 md:mt-2 mb-2 md:mb-5 text-sm md:text-xl  lg:w-[570px]">
+      <p className="mt-1 md:mt-2 mb-2 md:mb-5 text-sm md:text-lg lg:w-[570px]">
         {description}
       </p>
       <p className="mb-5 opacity-50 flex text-xs md:text-base">
