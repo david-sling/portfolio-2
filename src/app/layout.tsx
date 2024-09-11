@@ -6,6 +6,7 @@ import { formatMetadata } from "@/utils/metadata";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
+import { Footer } from "@/components/common/Footer";
 
 export const metadata = formatMetadata({
   title: "David Sling | Web Developer & Designer",
@@ -28,6 +29,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <Footer />
         <StickyNav />
         <Analytics />
         <SpeedInsights />
