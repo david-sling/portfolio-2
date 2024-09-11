@@ -4,6 +4,7 @@ import { Section } from "../common/Section";
 import { LinkedInLogo } from "@/assets/icons/LinkedInLogo";
 import { LogoRipple } from "../common/LogoRipple";
 import Link from "next/link";
+import { InstagramLogo } from "@/assets/icons/InstagramLogo";
 
 export const Hero = () => (
   <Section id="hero" className="min-h-[calc(100vh-130px)] md:min-h-[unset]">
@@ -32,6 +33,9 @@ export const Hero = () => (
           </Link>
           <Link target="_blank" href="https://www.linkedin.com/in/david-sling">
             <LinkedInLogo />
+          </Link>
+          <Link target="_blank" href="https://www.instagram.com/davidsling.in">
+            <InstagramLogo />
           </Link>
         </div>
       </div>
