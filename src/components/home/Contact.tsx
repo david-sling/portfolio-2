@@ -14,12 +14,10 @@ export const Contact = () => (
           <p className="text-base md:text-lg font-semibold">+91 80725 39328</p>
         </div>
       </a>
-      <a href="mailto:sddavid.johan@gmail.com">
+      <a href="mailto:me@davidsling.in">
         <div className="flex items-center space-x-2">
           <MailIcon />
-          <p className="text-base md:text-lg font-semibold">
-            sddavid.johan@gmail.com
-          </p>
+          <p className="text-base md:text-lg font-semibold">me@davidsling.in</p>
         </div>
       </a>
     </div>
