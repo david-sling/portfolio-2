@@ -2,7 +2,7 @@ import { Section } from "./Section";
 
 export const Footer = () => (
   <Section
-    className="bg-dark-900 py-10 pb-32 md:pb-10"
+    className="bg-dark-900 py-10 pb-32 md:pb-10 mt-auto"
     innerClassName="flex flex-col items-center"
   >
     <div className="w-fit flex flex-col items-center gap-2">

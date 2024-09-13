@@ -28,7 +28,7 @@ const components = {
   h2: ({ className, ...props }: HeadingProps) => (
     <h2
       className={cn(
-        "mt-10 scroll-m-20 border-b pb-1 text-3xl font-semibold tracking-tight first:mt-0",
+        "mt-10 scroll-m-20 pb-1 text-3xl font-semibold tracking-tight first:mt-0",
         className
       )}
       {...props}
@@ -84,7 +84,10 @@ const components = {
     HTMLParagraphElement
   >) => (
     <p
-      className={cn("leading-7 [&:not(:first-child)]:mt-6", className)}
+      className={cn(
+        "leading-7 [&:not(:first-child)]:mt-6 opacity-95",
+        className
+      )}
       {...props}
     />
   ),
@@ -147,7 +150,7 @@ const components = {
   em: (props: React.HTMLAttributes<HTMLElement>) => (
     <em className="text-center py-1 text-sm flex justify-center" {...props} />
   ),
-  hr: ({ ...props }) => <hr {...props} className="my-4 md:my-8" />,
+  hr: ({ ...props }) => <hr {...props} className="my-4 md:my-8 mx-auto" />,
   table: ({ className, ...props }: React.HTMLAttributes<HTMLTableElement>) => (
     <div className="my-6 w-full overflow-y-auto">
       <table className={cn("w-full", className)} {...props} />

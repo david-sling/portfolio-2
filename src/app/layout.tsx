@@ -23,7 +23,7 @@ export default function RootLayout({
     <html className="scroll-smooth" lang="en">
       <body
         className={cn(
-          "bg-dark text-white w-full overflow-x-hidden",
+          "bg-dark text-white w-full overflow-x-hidden flex flex-col min-h-screen",
           systemUi.className
         )}
       >
