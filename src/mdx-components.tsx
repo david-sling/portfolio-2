@@ -1,11 +1,10 @@
 import type { MDXComponents } from "mdx/types";
-import { cn } from "./utils/cn";
-import Link from "next/link";
 import Image from "next/image";
-import { sentencize } from "./utils/format";
-import { MdxCode } from "./components/mdx/Code";
-import { MdxCard } from "./components/mdx/Card";
 import { MdxCallout } from "./components/mdx/Callout";
+import { MdxCard } from "./components/mdx/Card";
+import { MdxCode } from "./components/mdx/Code";
+import { cn } from "./utils/cn";
+import { sentencize } from "./utils/format";
 
 type HeadingProps = React.DetailedHTMLProps<
   React.HTMLAttributes<HTMLHeadingElement>,
@@ -136,9 +135,9 @@ const components = {
       props.src?.split("?")[0].split("/").at(-1)
     ).split(".")[0];
     return (
-      <div className="flex justify-center">
+      <div className="flex justify-center w-full">
         <Image
-          className={cn("rounded-md border !m-0", className)}
+          className={cn("rounded-xl !m-0 w-full", className)}
           alt={fileName || "blog image"}
           src={props.src as string}
           width={400}

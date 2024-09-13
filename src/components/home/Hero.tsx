@@ -22,11 +22,11 @@ export const Hero = () => (
         Building web apps that have goals
       </p>
       <div className="flex items-center -mx-2 flex-wrap wrap flex-col md:flex-row">
-        <a href="#work">
+        <Link href="/#work">
           <Button className="m-2" size="lg">
             See my work
           </Button>
-        </a>
+        </Link>
         <div className="flex items-center space-x-5 m-2">
           <Link target="_blank" href="https://github.com/david-sling">
             <GitHubLogo />
