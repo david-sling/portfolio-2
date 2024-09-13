@@ -7,7 +7,9 @@ export default function RootLayout({
 }>) {
   return (
     <>
-      <Section className="my-10">{children}</Section>
+      <Section className="my-10" innerClassName="max-w-[800px]">
+        {children}
+      </Section>
     </>
   );
 }
