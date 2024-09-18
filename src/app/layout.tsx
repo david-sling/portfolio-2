@@ -11,7 +11,7 @@ import "./globals.css";
 export const metadata = formatMetadata({
   title: "David Sling | Web Developer & Designer",
   description: "The practical developer",
-  image: "https://davidsling.in/cover.png",
+  image: "/cover.png",
 });
 
 export default function RootLayout({

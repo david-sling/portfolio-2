@@ -1,5 +1,12 @@
 import { BlogCard } from "@/components/blog/BlogCard";
 import { Section } from "@/components/common/Section";
+import { formatMetadata } from "@/utils/metadata";
+
+export const metadata = formatMetadata({
+  title: "David Sling | Blogs",
+  description: "The practical developer's mind",
+  image: "/blogs-cover.svg",
+});
 
 const Blogs = () => (
   <Section className="py-10">
