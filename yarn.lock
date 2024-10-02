@@ -2934,6 +2934,11 @@ react-dom@^18:
     loose-envify "^1.1.0"
     scheduler "^0.23.1"
 
+react-dynamic-qr@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/react-dynamic-qr/-/react-dynamic-qr-0.0.5.tgz#8ba8392d3a80a3e00bad4e880beaf336d1e3bf9f"
+  integrity sha512-+3UuSAKL3KbI0/iHV4PnxI6giddvhO6y5Y7q25e0xyjjnlsApVXWD0JFg4ApdlWqZw8lnu1JWpG26G3fCrbGDA==
+
 react-is@^16.13.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
