@@ -67,6 +67,14 @@ const getRoundedCorners = ({
   return { bottomLeft, bottomRight, topLeft, topRight };
 };
 
+const calcBorderRadii = ({}: {
+  xidx: number;
+  yidx: number;
+  matrix: number[][];
+  min: number;
+  max: number;
+}) => {};
+
 export const QrView: FC<{
   content: string;
   size?: number;

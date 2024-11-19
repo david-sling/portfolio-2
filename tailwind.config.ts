@@ -31,6 +31,7 @@ const config: Config = {
           900: `${primary}90`,
         },
         dark: {
+          300: "#5C5C5C",
           500: "#333",
           DEFAULT: "#212121",
           800: "#1a1a1a",
