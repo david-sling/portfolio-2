@@ -22,9 +22,9 @@ export const Hero = () => (
         Building web apps that have goals
       </p>
       <div className="flex items-center -mx-2 flex-wrap wrap flex-col md:flex-row">
-        <Link href="/#work">
+        <Link target="_blank" href="/resume.pdf">
           <Button className="m-2" size="lg">
-            See my work
+            See my resume
           </Button>
         </Link>
         <div className="flex items-center space-x-5 m-2">
