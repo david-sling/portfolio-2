@@ -5,6 +5,7 @@ import { TrademarkiaIllustration } from "@/assets/illustrations/trademarkia/Trad
 import { IncdecentralIllustration } from "@/assets/illustrations/incdecentral/IncdecentralIllustration";
 import { FlameBondIllustration } from "@/assets/illustrations/flamebond/FlameBondIllustration";
 import { CryptoSenderIllustration } from "@/assets/illustrations/cryptosender/CryptoSenderIllustration";
+import { FilmkitIllustration } from "@/assets/illustrations/filmkit/FilmkitIllustration";
 
 export const Work = () => (
   <Section id="work" className="py-10 md:py-32">
@@ -19,6 +20,14 @@ export const Work = () => (
         color="#7C57E3"
         projectLink="https://domainmarkia.com"
         illustration={<DomainmarkiaIllustration />}
+      />
+      <WorkCard
+        name="filmkit.ai"
+        description="AI tools for every frame."
+        stack={["Next JS", "TypeScript"]}
+        color="#FFC953"
+        projectLink="https://filmkit.ai"
+        illustration={<FilmkitIllustration />}
       />
       <WorkCard
         name="trademarkia"
