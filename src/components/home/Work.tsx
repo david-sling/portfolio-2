@@ -30,14 +30,6 @@ export const Work = () => (
         illustration={<FilmkitIllustration />}
       />
       <WorkCard
-        name="trademarkia"
-        description="A website to help you file trademarks with ease. I worked on the search engine (frontend) and blogs (frontend & backend)"
-        stack={["Next JS", "Firebase", "Node JS", "TypeScript"]}
-        color="#2D75E1"
-        projectLink="https://trademarkia.com"
-        illustration={<TrademarkiaIllustration />}
-      />
-      <WorkCard
         name="incdecentral"
         description="IncDecentral is a service that makes Business Incorporation easier. This is one of the projects we built at Trademarkia. My role was to build the entire frontend."
         stack={["Next JS", "TypeScript"]}
@@ -46,12 +38,12 @@ export const Work = () => (
         illustration={<IncdecentralIllustration />}
       />
       <WorkCard
-        name="flamebond"
-        description="A Content Management System that auto generates API endpoints for CRUD applications"
-        stack={["React JS", "Firebase", "Node JS"]}
-        color="#F57F17"
-        projectLink="https://flamebond.davidsling.in"
-        illustration={<FlameBondIllustration />}
+        name="trademarkia"
+        description="A website to help you file trademarks with ease. I worked on the search engine (frontend) and blogs (frontend & backend)"
+        stack={["Next JS", "Firebase", "Node JS", "TypeScript"]}
+        color="#2D75E1"
+        projectLink="https://trademarkia.com"
+        illustration={<TrademarkiaIllustration />}
       />
       <WorkCard
         name="cryptosender"
@@ -60,6 +52,14 @@ export const Work = () => (
         color="#9E74C8"
         projectLink="https://cryptosender.davidsling.in"
         illustration={<CryptoSenderIllustration />}
+      />
+      <WorkCard
+        name="flamebond"
+        description="A Content Management System that auto generates API endpoints for CRUD applications"
+        stack={["React JS", "Firebase", "Node JS"]}
+        color="#F57F17"
+        projectLink="https://flamebond.davidsling.in"
+        illustration={<FlameBondIllustration />}
       />
     </div>
   </Section>
