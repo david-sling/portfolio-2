@@ -39,7 +39,7 @@ export const Work = () => (
       />
       <WorkCard
         name="trademarkia"
-        description="A website to help you file trademarks with ease. I worked on the search engine (frontend) and blogs (frontend & backend)"
+        description="A website to help you file trademarks with ease. I worked on the trademark search engine (frontend) and blogs (frontend & backend)"
         stack={["Next JS", "Firebase", "Node JS", "TypeScript"]}
         color="#2D75E1"
         projectLink="https://trademarkia.com"
