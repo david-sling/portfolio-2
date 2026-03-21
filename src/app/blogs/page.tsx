@@ -16,6 +16,11 @@ const Blogs = () => (
         title="Randomness is beautifully consistent"
         link="/blogs/consistent-randomness"
       />
+      <BlogCard
+        cover="/blog-covers/vibecoded-dating-app.svg"
+        title="I Vibecoded a Full Stack App. Here's What Actually Happened."
+        link="/blogs/vibecoded-dating-app"
+      />
     </div>
   </Section>
 );
