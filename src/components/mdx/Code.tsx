@@ -12,6 +12,8 @@ export const MdxCode = ({
   children,
   ...props
 }: React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>) => {
+  const isInline = !props["data-language" as keyof typeof props] && !className?.includes("language-");
+  const codeRef = useRef<HTMLElement>(null);
   const [showCopied, setShowCopied] = useState(false);
   const [showCopiedCheck, setShowCopiedCheck] = useState(false);
   const copiedTimeout = useRef<NodeJS.Timeout>();
@@ -26,16 +28,31 @@ export const MdxCode = ({
     };
   }, []);
 
+  if (isInline) {
+    return (
+      <code
+        className={cn(
+          "inline font-mono text-sm px-2 py-0.5 rounded-full bg-blue-950/40 text-blue-400/80 border border-blue-900/40",
+          className
+        )}
+        {...props}
+      >
+        {children}
+      </code>
+    );
+  }
+
   return (
     <>
       <code
+        ref={codeRef}
         className={cn("relative block font-mono text-sm py-1", className)}
         {...props}
       >
         {children}
         <div
           onClick={() => {
-            copyToClipboard(children as string);
+            copyToClipboard(codeRef.current?.textContent ?? "");
             setShowCopied(true);
             setShowCopiedCheck(true);
             clearTimeout(copiedTimeout.current);

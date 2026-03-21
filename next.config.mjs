@@ -1,7 +1,17 @@
 import nextMdx from "@next/mdx";
+import rehypePrettyCode from "rehype-pretty-code";
+
+/** @type {import('rehype-pretty-code').Options} */
+const prettyCodeOptions = {
+  theme: "github-dark",
+  keepBackground: false,
+};
 
 const withMDX = nextMdx({
   extension: /\.mdx?$/,
+  options: {
+    rehypePlugins: [[rehypePrettyCode, prettyCodeOptions]],
+  },
 });
 
 /** @type {import('next').NextConfig} */
