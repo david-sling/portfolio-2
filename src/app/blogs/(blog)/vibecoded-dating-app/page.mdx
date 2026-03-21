@@ -35,7 +35,7 @@ About a week in I noticed something. AI was writing SQL fluently, more fluently 
 
 So I asked myself: Supabase Postgres already has RLS and `auth.uid()` to ensure security. I can just write Postgres Functions. Why am I adding an extra network hop?
 
-Here's the concrete moment it clicked. I had this Express endpoint to fetch a user's friends:
+Here's the concrete moment it clicked. I had this endpoint to fetch a user's friends:
 
 ```typescript
 export const getFriends = async (req: Request, res: Response) => {
