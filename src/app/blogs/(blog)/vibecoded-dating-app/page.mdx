@@ -31,7 +31,7 @@ That assumption was wrong. And realising that was the most valuable part of the 
 
 ## The Architectural Shift: SQL as the API
 
-About a week in I noticed something. AI was writing SQL fluently, more fluently than I write JavaScript. Every time I asked for a query, it came back clean, well-structured, properly indexed. Until then, I was routing everything through Supabase Edge Functions.
+A few days in I noticed something. AI was writing SQL fluently, more fluently than I can. Every time I asked for a query, it came back clean, well-structured, properly indexed. Until then, I was routing everything through Supabase Edge Functions.
 
 So I asked myself: Supabase Postgres already has RLS and `auth.uid()` to ensure security. I can just write Postgres Functions. Why am I adding an extra network hop?
 
