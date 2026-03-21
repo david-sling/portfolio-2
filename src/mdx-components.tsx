@@ -71,7 +71,7 @@ const components = {
   ),
   a: ({ className, ...props }: AnchorProps) => (
     <a
-      className={cn("font-medium underline underline-offset-4", className)}
+      className={cn("font-medium underline underline-offset-4 text-blue-400 hover:text-blue-300 transition-colors", className)}
       {...props}
     />
   ),
@@ -120,7 +120,7 @@ const components = {
   >) => (
     <blockquote
       className={cn(
-        "mt-6 border-l-2 pl-6 italic [&>*]:text-muted-foreground",
+        "mt-6 border-l-2 border-blue-500/50 bg-blue-950/20 pl-6 pr-4 py-3 rounded-r italic [&>*]:text-muted-foreground",
         className
       )}
       {...props}
@@ -135,7 +135,7 @@ const components = {
       props.src?.split("?")[0].split("/").at(-1)
     ).split(".")[0];
     return (
-      <div className="flex justify-center w-full">
+      <span className="flex justify-center w-full">
         <Image
           className={cn("rounded-xl !m-0 w-full", className)}
           alt={fileName || "blog image"}
@@ -143,13 +143,13 @@ const components = {
           width={400}
           height={100}
         />
-      </div>
+      </span>
     );
   },
   em: (props: React.HTMLAttributes<HTMLElement>) => (
-    <em className="text-center py-1 text-sm flex justify-center" {...props} />
+    <em className="py-1 text-sm" {...props} />
   ),
-  hr: ({ ...props }) => <hr {...props} className="my-4 md:my-8 mx-auto" />,
+  hr: ({ ...props }) => <hr {...props} className="my-4 md:my-8 mx-auto border-white/10" />,
   table: ({ className, ...props }: React.HTMLAttributes<HTMLTableElement>) => (
     <div className="my-6 w-full overflow-y-auto">
       <table className={cn("w-full", className)} {...props} />

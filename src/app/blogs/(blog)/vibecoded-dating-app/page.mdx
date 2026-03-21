@@ -295,11 +295,11 @@ AI designed for today's feature. I designed for the table that has to coexist wi
 
 These are the things I would have done automatically if I were writing the code myself. With AI in the loop, I didn't think about them. That's the pattern worth understanding.
 
-### No Color Config
+### No Config
 
 I didn't tell AI to use a centralised color system. So it didn't. Every screen hardcoded its own values, `#FF6B9F` scattered across 30 files, each written fresh.
 
-When I eventually went back to pull colors into a theme config, it wasn't technically hard. The scale of it was. Touching every file, verifying nothing broke, re-testing screens. It cost a significant chunk of tokens and time that could have been avoided with one instruction at the start: _always import colors from `theme.ts`, never hardcode them_.
+When I eventually went back to pull colors into a theme config, it wasn't technically hard. The scale of it was. Touching every file, verifying nothing broke, re-testing screens. It cost a significant chunk of tokens and time that could have been avoided with one instruction at the start: _always import colors from `theme.ts`, never hardcode them._
 
 ### No Service Layer
 
