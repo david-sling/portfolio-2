@@ -18,7 +18,7 @@ const Blogs = () => (
       />
       <BlogCard
         cover="/blog-covers/vibecoded-dating-app.svg"
-        title="I Vibecoded a Full Stack App. Here's What Actually Happened."
+        title="I Vibecoded a Full Stack App. Here's How it Went."
         link="/blogs/vibecoded-dating-app"
       />
     </div>
