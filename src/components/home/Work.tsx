@@ -7,6 +7,7 @@ import { FlameBondIllustration } from "@/assets/illustrations/flamebond/FlameBon
 import { CryptoSenderIllustration } from "@/assets/illustrations/cryptosender/CryptoSenderIllustration";
 import { FilmkitIllustration } from "@/assets/illustrations/filmkit/FilmkitIllustration";
 import { OfflynIllustration } from "@/assets/illustrations/offlyn/OfflynIllustration";
+import { EquanimIllustration } from "@/assets/illustrations/equanim/EquanimIllustration";
 
 export const Work = () => (
   <Section id="work" className="py-10 md:py-32">
@@ -21,6 +22,14 @@ export const Work = () => (
         color="#FF6B9F"
         projectLink="https://offlyn.love"
         illustration={<OfflynIllustration />}
+      />
+      <WorkCard
+        name="equanim"
+        description="A declarative animation framework where every visual property is a math expression. Specs are written in JSON, evaluated with mathjs, and rendered to canvas — designed to be human-writable, AI-generatable, and renderer-agnostic."
+        stack={["TypeScript", "Vite", "mathjs"]}
+        color="#06B6D4"
+        projectLink="https://github.com/david-sling/equanim"
+        illustration={<EquanimIllustration />}
       />
       <WorkCard
         name="domainmarkia"
