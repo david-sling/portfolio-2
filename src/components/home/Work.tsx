@@ -6,6 +6,7 @@ import { IncdecentralIllustration } from "@/assets/illustrations/incdecentral/In
 import { FlameBondIllustration } from "@/assets/illustrations/flamebond/FlameBondIllustration";
 import { CryptoSenderIllustration } from "@/assets/illustrations/cryptosender/CryptoSenderIllustration";
 import { FilmkitIllustration } from "@/assets/illustrations/filmkit/FilmkitIllustration";
+import { OfflynIllustration } from "@/assets/illustrations/offlyn/OfflynIllustration";
 
 export const Work = () => (
   <Section id="work" className="py-10 md:py-32">
@@ -13,6 +14,14 @@ export const Work = () => (
       <span className="text-primary">this.</span>work
     </h2>
     <div className="mt-10 space-y-10 md:space-y-20">
+      <WorkCard
+        name="offlyn.love"
+        description="A dating app built for real connection. The landing page is built on Next.js, the web app lives at app.offlyn.love on TanStack Start, and the React Native mobile app is currently awaiting App Store & Play Store approval."
+        stack={["Next JS", "TanStack Start", "React Native", "TypeScript"]}
+        color="#FF6B9F"
+        projectLink="https://offlyn.love"
+        illustration={<OfflynIllustration />}
+      />
       <WorkCard
         name="domainmarkia"
         description="A domain marketplace and trademark filing in one. The domain search results are fetched serverside. The blogs are fetched from Notion during build time. The legal pages are rendered directly from md files using contentlayer. The cart resides on a global context and updates realtime with user interactions."
