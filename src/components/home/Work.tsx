@@ -8,6 +8,7 @@ import { CryptoSenderIllustration } from "@/assets/illustrations/cryptosender/Cr
 import { FilmkitIllustration } from "@/assets/illustrations/filmkit/FilmkitIllustration";
 import { OfflynIllustration } from "@/assets/illustrations/offlyn/OfflynIllustration";
 import { EquanimIllustration } from "@/assets/illustrations/equanim/EquanimIllustration";
+import { SlingcnIllustration } from "@/assets/illustrations/slingcn/SlingcnIllustration";
 
 export const Work = () => (
   <Section id="work" className="py-10 md:py-32">
@@ -22,6 +23,14 @@ export const Work = () => (
         color="#FF6B9F"
         projectLink="https://offlyn.love"
         illustration={<OfflynIllustration />}
+      />
+      <WorkCard
+        name="slingcn"
+        description="A personal shadcn/ui component registry. Drop-in custom components and hooks built on top of shadcn/ui and Tailwind — installable directly via the shadcn CLI."
+        stack={["Next JS", "shadcn/ui", "TypeScript", "Tailwind CSS"]}
+        color="#FAFAFA"
+        projectLink="https://shadcn.davidsling.in"
+        illustration={<SlingcnIllustration />}
       />
       <WorkCard
         name="equanim"
