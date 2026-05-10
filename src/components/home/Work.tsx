@@ -9,6 +9,7 @@ import { FilmkitIllustration } from "@/assets/illustrations/filmkit/FilmkitIllus
 import { OfflynIllustration } from "@/assets/illustrations/offlyn/OfflynIllustration";
 import { EquanimIllustration } from "@/assets/illustrations/equanim/EquanimIllustration";
 import { SlingcnIllustration } from "@/assets/illustrations/slingcn/SlingcnIllustration";
+import { CollatzIllustration } from "@/assets/illustrations/collatz/CollatzIllustration";
 
 export const Work = () => (
   <Section id="work" className="py-10 md:py-32">
@@ -39,6 +40,14 @@ export const Work = () => (
         color="#06B6D4"
         projectLink="https://github.com/david-sling/equanim"
         illustration={<EquanimIllustration />}
+      />
+      <WorkCard
+        name="collatz"
+        description="Pick any number. Follow two rules: if even, divide by 2. If odd, multiply by 3 and add 1. You always reach 1. An interactive exploration of the simplest math problem no one can solve — inspired by Veritasium."
+        stack={["Next JS", "TypeScript", "Framer Motion", "Recharts", "Tailwind CSS"]}
+        color="#ffb703"
+        projectLink="https://collatz.davidsling.in"
+        illustration={<CollatzIllustration />}
       />
       <WorkCard
         name="domainmarkia"
